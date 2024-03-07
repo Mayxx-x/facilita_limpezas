@@ -1,6 +1,6 @@
-### Rodando a Aplicação Localmente
+# Rodando a Aplicação Localmente
 
-## Instalando as dependências
+### Instalando as dependências
 
 Para executar a aplicação, você precisa ter o Node.js instalado em seu computador.
 

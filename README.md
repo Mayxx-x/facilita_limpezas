@@ -1,6 +1,12 @@
 ## Rodando a Aplicação Localmente
 
-rode a sequencia de comando para executar a aplicação:
+Execute a sequencia de comandos para executar a aplicação:
 
 ```bash
-git clone
+git clone https://github.com/Mayxx-x/facilita_limpezas
+
+cd facilita_limpezas
+
+npm install
+
+npm run dev

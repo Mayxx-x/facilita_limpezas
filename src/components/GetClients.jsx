@@ -138,6 +138,8 @@ export const GetClients = () => {
                     ))}
 
                     <footer className="flex self-end justify-between w-full h-14 border border-black rounded-lg">
+                        
+                        {/* Modal de exibição do mapa */}
                         <Dialog className='w-[50rem] aspect-video'>
                             <DialogTrigger>
                                 <button
@@ -146,6 +148,7 @@ export const GetClients = () => {
                                     Calcular Rota
                                 </button>
                             </DialogTrigger>
+
                             {/* Mapa com Rotas */}
                             <Visitacao clientes={selectedClientes} />
 

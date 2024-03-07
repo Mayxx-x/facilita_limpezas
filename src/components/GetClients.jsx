@@ -124,7 +124,7 @@ export const GetClients = () => {
 
                         //* Lista de Clientes adicionados a Rotas
                         //* Container de dados
-                        <div className="flex items-center border border-black rounded-lg p-3">
+                        <div key={cliente.id} className="flex items-center border border-black rounded-lg p-3">
 
                             <h1 className="justify-self-start"> {index} </h1>
                             <span className="text-center w-full">

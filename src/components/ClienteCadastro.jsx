@@ -65,7 +65,7 @@ export const ClienteCadastro = () => {
             console.log(data)
             setIsOpen(true)
         }
-    }, [cadData.cep])
+    }, [data, cadData.cep])
 
     const handleLocationConfirm = (e) => {
         setIsOpen(false)
